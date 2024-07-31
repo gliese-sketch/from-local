@@ -20,5 +20,5 @@ from chat import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('')
+    path('', views.main, name="hello")
 ]
